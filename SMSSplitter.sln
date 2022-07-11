@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSSplitter", "SMSSplitter\SMSSplitter.csproj", "{0087B8B1-D8B6-4B70-8D24-79F26A727890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSSplitterTests", "SMSSplitterTests\SMSSplitterTests.csproj", "{8142FF2D-7BFC-4F2E-A418-58DF32419FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0087B8B1-D8B6-4B70-8D24-79F26A727890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0087B8B1-D8B6-4B70-8D24-79F26A727890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0087B8B1-D8B6-4B70-8D24-79F26A727890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0087B8B1-D8B6-4B70-8D24-79F26A727890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8142FF2D-7BFC-4F2E-A418-58DF32419FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8142FF2D-7BFC-4F2E-A418-58DF32419FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8142FF2D-7BFC-4F2E-A418-58DF32419FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8142FF2D-7BFC-4F2E-A418-58DF32419FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A243110B-44E9-4807-BFA1-37E7F7A0128C}
+	EndGlobalSection
+EndGlobal
