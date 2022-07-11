@@ -5,8 +5,8 @@ namespace SMSSplitterTests;
 
 public class SplitterTests
 {
-    [TestCase(1 , "○")]
-    public void GivenNotAllowedCharacter_ThrowError(int expectedNumberOfParts, string message)
+    [TestCase("○")]
+    public void GivenNotAllowedCharacter_ThrowError(string message)
     {
         Assert.Throws<ArgumentException>(() => Splitter.Split(message));
     }
