@@ -3,7 +3,7 @@ using SMSSplitter;
 
 namespace SMSSplitterTests;
 
-public class Tests
+public class SplitterTests
 {
     [TestCase(1 , "○")]
     public void GivenNotAllowedCharacter_ThrowError(int expectedNumberOfParts, string message)
@@ -94,6 +94,7 @@ public class Tests
     public void GivenTextWithExtendedCharacters_SplitIntoCorrectParts2(int expectedNumberOfParts, string message)
     {
         string[] parts = Splitter.Split(message).ToArray();
+
 
         Assert.That(parts.Length, Is.EqualTo(expectedNumberOfParts));
 
